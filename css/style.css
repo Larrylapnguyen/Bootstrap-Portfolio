@@ -1,0 +1,68 @@
+    nav li{
+    text-align: center;
+}
+
+body{
+    background: url(../imgs/christmas-colour.png);
+    background-size: auto;
+}
+.footer {
+    bottom: 0;
+    position: relative;
+    width: 100%;
+    height: 60px;
+    line-height: 60px;
+    background-color: #1e1f30;
+    margin: 0;
+    padding: 0;
+} 
+.container{
+    height: 100%;
+}
+.container img{
+    height: 250px;
+    width: 250px;
+}
+
+#border form{
+    border: none;
+    margin-bottom: 12%;
+}
+.space{
+    margin: 5px auto;
+}
+  .contain .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-color: #1bb80673;
+    font-size: 16px;
+    padding: 12px 24px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  .container a{
+      text-decoration: none;
+      color: #ffffff;
+      font-weight: bold;
+  }
+  
+  .container .btn:hover {
+    background-color: black;
+  }
+@media screen and (max-width: 575px){
+    li:nth-child(odd) {
+        background: #36b405;
+    }
+    
+    .logo h1{
+        font-size: 1em;
+    }
+    .space li{
+        margin-left: 50px;
+    }
+}
+    
